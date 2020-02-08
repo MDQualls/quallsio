@@ -19283,6 +19283,12 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.getElementById('preloader').style.visibility = 'hidden';
+  }, 1000);
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
