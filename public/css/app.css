@@ -85,6 +85,34 @@ header .hero-text-area .hero-github-text {
   margin-top: 15px;
 }
 
+header .hero-text-area .welcome-text {
+  -webkit-animation: moveFromTop 1s ease-out 1s;
+          animation: moveFromTop 1s ease-out 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+header .hero-text-area .name-text {
+  -webkit-animation: moveFromRight 1s ease-out 1.5s;
+          animation: moveFromRight 1s ease-out 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+header .hero-text-area .profession-text {
+  -webkit-animation: moveFromLeft 1s ease-out 1.5s;
+          animation: moveFromLeft 1s ease-out 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+header .hero-text-area .hero-github-text {
+  -webkit-animation: fadeIn 1.5s ease-out 2.5s;
+          animation: fadeIn 1.5s ease-out 2.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
 nav {
   color: #efefef;
   background-color: #344955;
@@ -280,6 +308,26 @@ Preloader style
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
 

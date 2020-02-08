@@ -40,7 +40,6 @@ header {
         }
     }
 
-
     .hero-text-area {
         text-transform: uppercase;
         position: absolute;
@@ -72,6 +71,23 @@ header {
 
         .hero-github-text {
             margin-top: 15px;
+        }
+
+        .welcome-text  {
+            animation: moveFromTop 1s ease-out 1s;
+            animation-fill-mode: backwards;
+        }
+        .name-text  {
+            animation: moveFromRight 1s ease-out 1.5s;
+            animation-fill-mode: backwards;
+        }
+        .profession-text  {
+            animation: moveFromLeft 1s ease-out 1.5s;
+            animation-fill-mode: backwards;
+        }
+        .hero-github-text  {
+            animation: fadeIn 1.5s ease-out 2.5s;
+            animation-fill-mode: backwards;
         }
     }
 }

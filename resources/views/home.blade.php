@@ -17,9 +17,9 @@
 
         <div class="row">
             <div class="hero-text-area">
-                <h2>Welcome</h2>
-                <h1>I am Michael Qualls</h1>
-                <h2>Professional Full Stack Developer</h2>
+                <h2 class="welcome-text">Welcome</h2>
+                <h1 class="name-text">I am Michael Qualls</h1>
+                <h2 class="profession-text">Professional Full Stack Developer</h2>
                 <h2 class="hero-github-text">&lt;github/&gt; &lt;linkedin/&gt;</h2>
                 <!--
                 Github, linkedIn ...
