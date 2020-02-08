@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Qualls.IO is a Web development porfolio and resume site.">
     <meta name="keywords"
-          content="Programming, Web development, PHP, Javascript, CSS3, SCSS, MySql, Laravel, Eloquent"/>
+          content="Programming, Web development, Full Stack Developer, PHP, Javascript, CSS3, SCSS, MySql, Laravel, Eloquent"/>
     <meta name="author" content="Michael Qualls">
 
     <title>{{ config('app.name') }}</title>
