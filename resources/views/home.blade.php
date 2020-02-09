@@ -30,7 +30,7 @@
 
     <nav class="main-nav" id="main-nav-bar">
         <div class="row">
-            <div class="nav-branding-area">Qualls.IO</div>
+            <div class="nav-branding-area"><a href="#top">Qualls.IO</a></div>
             <ul class="main-nav-ul">
                 <li class="nav-item">About</li>
                 <li class="nav-item">Services</li>

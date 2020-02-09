@@ -152,6 +152,13 @@ nav {
   padding: 20px 0;
 }
 
+nav a,
+nav a:active,
+nav a:visited {
+  text-decoration: none;
+  color: #efefef;
+}
+
 nav .main-nav-ul {
   float: right;
   list-style: none;
