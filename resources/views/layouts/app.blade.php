@@ -26,6 +26,10 @@
     @yield('content')
 </main>
 
+<footer>
+
+</footer>
+
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/smooth-scroll.min.js') }}"></script>
@@ -40,3 +44,5 @@
 @yield('scripts')
 
 </body>
+</html>
+

@@ -40,19 +40,19 @@
         </div>
     </nav>
 
-    <section class="about-section">
+    <section id="about-section" class="about-section">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
 
-    <section class="services-section">
+    <section id="services-section" class="services-section">
 
     </section>
 
-    <section class="timeline-section">
+    <section id="timeline-section" class="timeline-section">
 
     </section>
 
-    <section class="contact-section">
+    <section id="contact-section" class="contact-section">
 
     </section>
 
