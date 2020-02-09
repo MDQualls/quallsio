@@ -20,23 +20,50 @@ header {
         margin: 40px 40px;
         border: solid 1pt $primary-color;
         position: relative;
+        animation: fadeIn 1.5s ease-out 2.5s;
+        animation-fill-mode: backwards;
     }
 
     .header-logo-area {
-        i {
+        .header-me-img {
             position: absolute;
-            top: 15px;
-            left: 15px;
+            left: 4px;
+            top: 5px;
+            width: 90px;
+            border-radius: 50%;
+            transition: left 0.3s, top 0.3s, width 0.3s;
+        }
+
+        .header-me-img:hover  {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
         }
     }
 
     .header-nav-area {
         float: right;
+        backface-visibility: hidden;
+
+        a,
+        a:active,
+        a:visited {
+            text-decoration: none;
+            color: $light-color;
+        }
 
         i {
             position: absolute;
-            top: 20px;
+            top: 18px;
             left: 28px;
+            transition: left 0.2s, font-size 0.2s;
+        }
+
+        i:hover  {
+            left: 26px;
+            font-size: 110%;
+            cursor: pointer;
         }
     }
 

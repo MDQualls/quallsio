@@ -9,10 +9,10 @@
 
     <header>
         <div class="header-logo-area">
-            <i class="fas fa-user-alt"></i>
+            <img class="header-me-img" src="{{ asset('images/me_1.jpg') }}" alt="">
         </div>
         <div class="header-nav-area">
-            <i class="fas fa-angle-double-down"></i>
+            <a href="#main-nav-bar"><i class="fas fa-angle-double-down"></i></a>
         </div>
 
         <div class="row">
@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <nav class="main-nav">
+    <nav class="main-nav" id="main-nav-bar">
         <div class="row">
             <div class="nav-branding-area">Qualls.IO</div>
             <ul class="main-nav-ul">
@@ -41,7 +41,7 @@
     </nav>
 
     <section class="about-section">
-
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
 
     <section class="services-section">

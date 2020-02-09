@@ -28,6 +28,14 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/smooth-scroll.min.js') }}"></script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 700,
+        speedAsDuration: true
+    });
+</script>
 
 @yield('scripts')
 

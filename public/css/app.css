@@ -38,22 +38,52 @@ header .header-nav-area {
   margin: 40px 40px;
   border: solid 1pt #344955;
   position: relative;
+  -webkit-animation: fadeIn 1.5s ease-out 2.5s;
+          animation: fadeIn 1.5s ease-out 2.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
-header .header-logo-area i {
+header .header-logo-area .header-me-img {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  left: 4px;
+  top: 5px;
+  width: 90px;
+  border-radius: 50%;
+  transition: left 0.3s, top 0.3s, width 0.3s;
+}
+
+header .header-logo-area .header-me-img:hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
 }
 
 header .header-nav-area {
   float: right;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+header .header-nav-area a,
+header .header-nav-area a:active,
+header .header-nav-area a:visited {
+  text-decoration: none;
+  color: #eceff1;
 }
 
 header .header-nav-area i {
   position: absolute;
-  top: 20px;
+  top: 18px;
   left: 28px;
+  transition: left 0.2s, font-size 0.2s;
+}
+
+header .header-nav-area i:hover {
+  left: 26px;
+  font-size: 110%;
+  cursor: pointer;
 }
 
 header .hero-text-area {
@@ -132,16 +162,17 @@ nav .nav-item {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 2px;
 }
 
 nav .nav-branding-area {
   font-size: 110%;
+  margin-top: 2px;
 }
 
 nav .nav-item {
   margin-left: 40px;
   font-size: 90%;
+  margin-top: 4px;
 }
 
 /*
