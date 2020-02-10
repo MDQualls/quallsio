@@ -10,14 +10,13 @@ header {
 
     .header-logo-area,
     .header-nav-area {
-        height: 100px;
-        width: 100px;
-        font-size: 360%;
+        height: 10rem;
+        width: 10rem;
         color: $light-color;
         background: $secondary-color;
-        border-radius: 50%;
+        border-radius: 5rem;
         display: inline-block;
-        margin: 40px 40px;
+        margin: 4rem 4rem;
         border: solid 1pt $primary-color;
         position: relative;
         animation: fadeIn 1.5s ease-out 2.5s;
@@ -27,10 +26,10 @@ header {
     .header-logo-area {
         .header-me-img {
             position: absolute;
-            left: 4px;
-            top: 5px;
-            width: 90px;
-            border-radius: 50%;
+            left: .4rem;
+            top: .5rem;
+            width: 9rem;
+            border-radius: 5rem;
             transition: left 0.3s, top 0.3s, width 0.3s;
         }
 
@@ -38,7 +37,7 @@ header {
             position: absolute;
             left: 0;
             top: 0;
-            width: 100px;
+            width: 10rem;
         }
     }
 
@@ -55,14 +54,15 @@ header {
 
         i {
             position: absolute;
-            top: 18px;
-            left: 28px;
+            top: 1.8rem;
+            left: 2.8rem;
             transition: left 0.2s, font-size 0.2s;
+            font-size: 6.2rem;
         }
 
         i:hover  {
-            left: 26px;
-            font-size: 110%;
+            left: 2.7rem;
+            font-size: 6.6rem;
             cursor: pointer;
         }
     }
@@ -70,7 +70,7 @@ header {
     .hero-text-area {
         text-transform: uppercase;
         position: absolute;
-        width: 1140px;
+        width: 114rem;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
@@ -79,28 +79,24 @@ header {
 
         h1,
         h2 {
-            word-spacing: 6px;
-            line-height: 120%;
+            word-spacing: .6rem;
         }
 
         h1 {
-            font-size: 290%;
-            letter-spacing: 3px;
+            font-size: 5.4rem;
+            letter-spacing: .4rem;
             font-weight: 700;
-            margin: 15px 0;
         }
 
         h2 {
-            font-size: 150%;
-            letter-spacing: 1px;
+            font-size: 3rem;
+            letter-spacing: .3rem;
             font-weight: 300;
-        }
-
-        .hero-github-text {
-            margin-top: 15px;
+            margin: 1.8rem 0;
         }
 
         .welcome-text  {
+            margin-bottom: 1rem;
             animation: moveFromTop 1s ease-out 1s;
             animation-fill-mode: backwards;
         }

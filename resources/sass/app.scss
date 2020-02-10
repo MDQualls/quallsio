@@ -11,6 +11,11 @@
     box-sizing: inherit;
 }
 
+html  {
+    font-size: $font-base-size
+        //62.5%;
+}
+
 body {
     background-color: $light-color;
     font-size: $font-base-size;

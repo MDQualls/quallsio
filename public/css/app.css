@@ -6,9 +6,13 @@
   box-sizing: inherit;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   background-color: #eceff1;
-  font-size: 18px;
+  font-size: 10px;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   line-height: 1.1;
@@ -31,14 +35,13 @@ header {
 
 header .header-logo-area,
 header .header-nav-area {
-  height: 100px;
-  width: 100px;
-  font-size: 360%;
+  height: 10rem;
+  width: 10rem;
   color: #eceff1;
   background: #f9aa33;
-  border-radius: 50%;
+  border-radius: 5rem;
   display: inline-block;
-  margin: 40px 40px;
+  margin: 4rem 4rem;
   border: solid 1pt #344955;
   position: relative;
   -webkit-animation: fadeIn 1.5s ease-out 2.5s;
@@ -49,10 +52,10 @@ header .header-nav-area {
 
 header .header-logo-area .header-me-img {
   position: absolute;
-  left: 4px;
-  top: 5px;
-  width: 90px;
-  border-radius: 50%;
+  left: 0.4rem;
+  top: 0.5rem;
+  width: 9rem;
+  border-radius: 5rem;
   transition: left 0.3s, top 0.3s, width 0.3s;
 }
 
@@ -60,7 +63,7 @@ header .header-logo-area .header-me-img:hover {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100px;
+  width: 10rem;
 }
 
 header .header-nav-area {
@@ -78,21 +81,22 @@ header .header-nav-area a:visited {
 
 header .header-nav-area i {
   position: absolute;
-  top: 18px;
-  left: 28px;
+  top: 1.8rem;
+  left: 2.8rem;
   transition: left 0.2s, font-size 0.2s;
+  font-size: 6.2rem;
 }
 
 header .header-nav-area i:hover {
-  left: 26px;
-  font-size: 110%;
+  left: 2.7rem;
+  font-size: 6.6rem;
   cursor: pointer;
 }
 
 header .hero-text-area {
   text-transform: uppercase;
   position: absolute;
-  width: 1140px;
+  width: 114rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -100,28 +104,24 @@ header .hero-text-area {
 
 header .hero-text-area h1,
 header .hero-text-area h2 {
-  word-spacing: 6px;
-  line-height: 120%;
+  word-spacing: 0.6rem;
 }
 
 header .hero-text-area h1 {
-  font-size: 290%;
-  letter-spacing: 3px;
+  font-size: 5.4rem;
+  letter-spacing: 0.4rem;
   font-weight: 700;
-  margin: 15px 0;
 }
 
 header .hero-text-area h2 {
-  font-size: 150%;
-  letter-spacing: 1px;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
   font-weight: 300;
-}
-
-header .hero-text-area .hero-github-text {
-  margin-top: 15px;
+  margin: 1.8rem 0;
 }
 
 header .hero-text-area .welcome-text {
+  margin-bottom: 1rem;
   -webkit-animation: moveFromTop 1s ease-out 1s;
           animation: moveFromTop 1s ease-out 1s;
   -webkit-animation-fill-mode: backwards;
@@ -152,7 +152,7 @@ header .hero-text-area .hero-github-text {
 nav {
   color: #efefef;
   background-color: #344955;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 nav a,
@@ -171,18 +171,18 @@ nav .nav-branding-area,
 nav .nav-item {
   display: inline-block;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 nav .nav-branding-area {
-  font-size: 110%;
-  margin-top: 2px;
+  font-size: 2.1rem;
+  margin-top: 0.2rem;
 }
 
 nav .nav-item {
-  margin-left: 40px;
-  font-size: 90%;
-  margin-top: 4px;
+  margin-left: 4rem;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
 }
 
 /*
