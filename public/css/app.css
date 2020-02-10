@@ -20,7 +20,7 @@ body {
 }
 
 .row {
-  max-width: 1140px;
+  max-width: 114rem;
   margin: 0 auto;
 }
 
@@ -96,9 +96,8 @@ header .header-nav-area i:hover {
 header .hero-text-area {
   text-transform: uppercase;
   position: absolute;
-  width: 114rem;
   top: 50%;
-  left: 50%;
+  left: 39%;
   transform: translate(-50%, -50%);
 }
 
