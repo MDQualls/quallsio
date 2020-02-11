@@ -19,6 +19,36 @@ body {
   box-sizing: border-box;
 }
 
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.6rem;
+}
+
+section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #f9aa33;
+  content: " ";
+  width: 10rem;
+  margin: 2rem auto 3rem auto;
+}
+
+section p.lead {
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+section p.text {
+  margin-bottom: 1.5rem;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -373,5 +403,24 @@ Preloader style
   100% {
     opacity: 1;
   }
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section .about-text-box {
+  display: flex;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
+.about-section .portrait-box {
+  margin: 0 2rem;
+}
+
+.about-section .about-box {
+  text-align: justify;
+  margin: 0 2rem;
 }
 

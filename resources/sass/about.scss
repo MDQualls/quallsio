@@ -1,0 +1,18 @@
+.about-section  {
+    text-align: center;
+
+    .about-text-box  {
+        display: flex;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+
+    .portrait-box  {
+        margin: 0 2rem;
+    }
+
+    .about-box  {
+        text-align: justify;
+        margin: 0 2rem;
+    }
+}
