@@ -67,7 +67,8 @@
                     </p>
                     <div class="about-button-box">
                         <a href="#contact-section" class="btn btn-secondary">Conact Me</a>
-                        <a download href="" class="btn btn-secondary">Resume PDF</a>
+                        <a download href="{{ asset('files/MichaelDQuallsResume02112020.pdf') }}"
+                           class="btn btn-secondary">Resume PDF</a>
                     </div>
                 </div>
             </div>
@@ -87,7 +88,8 @@
                         Full Stack Development
                     </div>
                     <div class="service-box-content">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        I do front end development in HTML5/CSS3/Javascript and backend development in
+                        PHP/Laravel/MySql. All of my projects utilize tried and true OOP patterns and SOLID Principles.
                     </div>
                 </div>
                 <div class="service-box">
@@ -98,7 +100,8 @@
                         API Development
                     </div>
                     <div class="service-box-content">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        I am experienced in RESTful design. I am comfortable with both the
+                        Lumen PHP Framework and the Flask Python Framework for API development.
                     </div>
                 </div>
                 <div class="service-box">
@@ -109,7 +112,8 @@
                         Support
                     </div>
                     <div class="service-box-content">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        I am able to tackle existing legacy applications for maintenance or upgrade.  If you need help
+                        with hosting, I am experienced with handling Web properties on both Heroku and AWS.
                     </div>
                 </div>
 
@@ -131,9 +135,9 @@
                         </p>
                         <p>
                             As a member of the Web Application Engineering and Architecture Team,
-                            my responsibilities include maintenance, support and extension of the proprietary PHP MVC
-                            framework based on Zend and Symphony, the feature system, the cache system and the long
-                            running process (LRP) system.
+                            my responsibilities include maintenance, support and extension of the proprietary Paycome
+                            PHP MVC framework based on Zend and Symphony, the feature system, the cache system and the
+                            long running process (LRP) system.
                         </p>
                     </li>
 
@@ -159,55 +163,32 @@
                     <li class="timeline-item" data-date="2004">
 
                         <h3>Web Developer at USPS Training Center</h3>
-
-                        <p>"We design and build from scratch!" 📣
-                        <p/>
-                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
-                            Squarespace Developer platform.
-                        <p/>
-                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
-                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
-
-                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
-                                Squarespace-focused service!</strong></p>
-
-                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
+                        <p>
+                            We were responsible for building the training, scheduling and reservation software
+                            for teh US Postal Service Training Center.
+                        </p>
                     </li>
 
                     <li class="timeline-item" data-date="1999">
 
-                        <h3>Squareflair Today</h3>
+                        <h3>Web Master at MIN</h3>
 
-                        <p>"We design and build from scratch!" 📣
-                        <p/>
-                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
-                            Squarespace Developer platform.
-                        <p/>
-                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
-                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
-
-                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
-                                Squarespace-focused service!</strong></p>
-
-                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
+                        <p>
+                            I was responsible for building and maintaining the databases and architecture for all
+                            company Web sites and applications.
+                        </p>
                     </li>
 
                     <li class="timeline-item" data-date="1998">
 
-                        <h3>Squareflair Today</h3>
+                        <h3>Programmer at Alamode Software</h3>
 
-                        <p>"We design and build from scratch!" 📣
+                        <p>
+                            This was my first professional programming gig. I spent a year working on Alamode's
+                            Real Estate Appraisal Software, WinTotal 2000. I was also responsible for building and
+                            maintaining several in-house applications for client servies, e-mailing, faxing and
+                            reporing.
                         <p/>
-                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
-                            Squarespace Developer platform.
-                        <p/>
-                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
-                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
-
-                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
-                                Squarespace-focused service!</strong></p>
-
-                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
                     </li>
                 </ul>
             </div>
