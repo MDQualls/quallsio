@@ -29,7 +29,7 @@ footer {
 }
 
 section {
-  padding: 80px 0;
+  padding: 100px 0 80px 0;
   text-align: center;
 }
 
@@ -84,6 +84,20 @@ section:nth-child(even) {
 .btn-secondary:hover,
 .btn-secondary:active {
   background-color: #d78a2d;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #efefef;
+  padding-bottom: 0.4rem;
+  border-bottom: 0.2rem solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+a:active,
+a:hover {
+  border-bottom: 0.2rem solid #f9aa33;
 }
 
 header {
@@ -215,20 +229,6 @@ nav {
   color: #efefef;
   background-color: #344955;
   padding: 2rem 0;
-}
-
-nav a:link,
-nav a:visited {
-  text-decoration: none;
-  color: #efefef;
-  padding-bottom: 0.4rem;
-  border-bottom: 0.2rem solid transparent;
-  transition: border-bottom 0.2s;
-}
-
-nav a:active,
-nav a:hover {
-  border-bottom: 0.2rem solid #f9aa33;
 }
 
 nav .main-nav-ul {

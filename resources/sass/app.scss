@@ -42,7 +42,7 @@ footer  {
 //################################
 
 section {
-    padding: 80px 0;
+    padding: 100px 0 80px 0;
     text-align: center;
 
     h2  {
@@ -101,6 +101,24 @@ section:nth-child(even)  {
 .btn-secondary:hover,
 .btn-secondary:active  {
     background-color: $secondary-color-shaded;
+}
+
+//################################
+// LINK STYLING
+//################################
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: $light-font;
+    padding-bottom: .4rem;
+    border-bottom: .2rem solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+a:active,
+a:hover  {
+    border-bottom: .2rem solid $secondary-color;
 }
 
 // header styling
