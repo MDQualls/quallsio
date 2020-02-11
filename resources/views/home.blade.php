@@ -49,21 +49,20 @@
                 </div>
                 <div class="about-box">
                     <p class="lead">
-                        Lorem Ipsum is simply dummy text of the printing
+                        Over 20 years experience in Web development.
                     </p>
                     <p class="text">
-                        Lor1em Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop.
+                        I started with Visual Basic and ASP Classic in 1998 for Alamode Software after taking several
+                        Visual Basic courses at the University of Oklahoma and reading several books.  Since then I have
+                        never looked back.  I have been working as a developer, essentially, since the Internet was around
+                        and I have not stopped growing and learning yet.
                     </p>
                     <p class="text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged.
+                        Over the years I have worked in PHP, C# (ASP.NET), Node.Js and Python.  Currently I am focusing
+                        on PHP application development, but it would not take much to get back up to speed in the
+                        technologies I have worked with previously.  If you are looking for an application developer
+                        that is constantly studying and working to build new skills,  please contact me.  I know that
+                        I can meet your needs.
                     </p>
                     <div class="about-button-box">
                         <a href="#contact-section" class="btn btn-secondary">Conact Me</a>
