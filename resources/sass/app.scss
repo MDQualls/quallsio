@@ -3,6 +3,10 @@
 // Variables
 @import 'variables';
 
+//################################
+// COMMON STYLING
+//################################
+
 *,
 *::after,
 *::before {
@@ -24,8 +28,18 @@ body {
     box-sizing: border-box;
 }
 
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+//################################
+// SECTION STYLING
+//################################
+
 section {
     padding: 80px 0;
+    text-align: center;
 
     h2  {
         font-size: 4rem;
@@ -54,9 +68,35 @@ section {
     }
 }
 
-.row {
-    max-width: 114rem;
-    margin: 0 auto;
+section:nth-child(even)  {
+    background-color: $white-color;
+}
+
+//################################
+// BUTTON STYLING
+//################################
+
+.btn:link,
+.btn:visited  {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 5rem;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    margin-right: 1.2rem;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited  {
+    background-color: $secondary-color;
+    color: $white-color;
+    transition: background-color .2s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active  {
+    background-color: $secondary-color-shaded;
 }
 
 // header styling
@@ -69,3 +109,6 @@ section {
 @import "keyframes";
 // about section styling
 @import "about";
+// services section styling
+@import "services";
+

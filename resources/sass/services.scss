@@ -1,0 +1,35 @@
+.services-section  {
+    .services-text-box  {
+        display: flex;
+        font-size: 1.8rem;
+        align-items: flex-start;
+        text-align: justify;
+    }
+
+    .service-box  {
+        margin-right: 2rem;
+        padding: 1rem;
+        flex: 1;
+
+        .service-box-icon,
+        .service-box-title,
+        .service-box-content  {
+            margin-bottom: 2rem;
+        }
+
+        .service-box-icon  {
+            font-size: 5rem;
+            color: $primary-color;
+        }
+
+        .service-box-title  {
+            font-size: 2rem;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .service-box-content  {
+            line-height: 2.2rem;
+        }
+    }
+}

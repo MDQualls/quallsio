@@ -65,13 +65,56 @@
                         of type and scrambled it to make a type specimen book. It has survived not only five centuries,
                         but also the leap into electronic typesetting, remaining essentially unchanged.
                     </p>
+                    <div class="about-button-box">
+                        <a href="#contact-section" class="btn btn-secondary">Conact Me</a>
+                        <a download href="" class="btn btn-secondary">Resume PDF</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="services-section" class="services-section">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="row">
+            <h2>Services</h2>
+            <div class="services-text-box">
+
+                <div class="service-box">
+                    <div class="service-box-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-box-title">
+                        Full Stack Development
+                    </div>
+                    <div class="service-box-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-box-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="service-box-title">
+                        API Development
+                    </div>
+                    <div class="service-box-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-box-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="service-box-title">
+                        Support
+                    </div>
+                    <div class="service-box-content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section id="timeline-section" class="timeline-section">
