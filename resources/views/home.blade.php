@@ -118,11 +118,111 @@
     </section>
 
     <section id="timeline-section" class="timeline-section">
+        <div class="row">
+            <h2>Timeline</h2>
 
+            <div class="timeline-box">
+                <ul>
+                    <li class="timeline-item" data-date="2016">
+                        <h3>Software Developer IV at Paycom</h3>
+                        <p>
+                            I am currently at Paycom, an industry leader in the development of Web based Human Capital
+                            Management Software.
+                        </p>
+                        <p>
+                            As a member of the Web Application Engineering and Architecture Team,
+                            my responsibilities include maintenance, support and extension of the proprietary PHP MVC
+                            framework based on Zend and Symphony, the feature system, the cache system and the long
+                            running process (LRP) system.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item" data-date="2008">
+                        <h3>Lead Developer at Claims Management Resources</h3>
+                        <p>
+                            I coordinated application development, application maintenance and process automation
+                            initiatives with the CMR IT Manager. Our work primarily focused around building work
+                            flow and claim management applications for the billing department and import/export
+                            routines for the exchange of data with our clients.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item" id="date" data-date="2006">
+                        <h3>Internet Application Developer at Onesite.com</h3>
+                        <p>
+                            Social Networking Application Development utilizing primarily PHP and MySQL Enterprise. Both
+                            MVC and non-MVC development in a SVN Environment. Tasks included application development,
+                            RESTful SOA design, RSS development, full index searching development.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item" data-date="2004">
+
+                        <h3>Web Developer at USPS Training Center</h3>
+
+                        <p>"We design and build from scratch!" 📣
+                        <p/>
+                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
+                            Squarespace Developer platform.
+                        <p/>
+                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
+                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
+
+                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
+                                Squarespace-focused service!</strong></p>
+
+                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
+                    </li>
+
+                    <li class="timeline-item" data-date="1999">
+
+                        <h3>Squareflair Today</h3>
+
+                        <p>"We design and build from scratch!" 📣
+                        <p/>
+                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
+                            Squarespace Developer platform.
+                        <p/>
+                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
+                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
+
+                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
+                                Squarespace-focused service!</strong></p>
+
+                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
+                    </li>
+
+                    <li class="timeline-item" data-date="1998">
+
+                        <h3>Squareflair Today</h3>
+
+                        <p>"We design and build from scratch!" 📣
+                        <p/>
+                        <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the
+                            Squarespace Developer platform.
+                        <p/>
+                        <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and
+                            harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
+
+                        <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100%
+                                Squarespace-focused service!</strong></p>
+
+                        <p><a href="https://www.squareflair.com">squareflair.com</a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
     </section>
 
     <section id="contact-section" class="contact-section">
-
+        <div class="row">
+            <h2>Contact</h2>
+        </div>
     </section>
+
+    <footer>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </footer>
 
 @endsection
