@@ -21,8 +21,7 @@
                 <h1 class="name-text">I am Michael Qualls</h1>
                 <h2 class="profession-text">Professional Full Stack Developer</h2>
                 <h2 class="hero-github-text">&lt;<a target="_blank" href="https://github.com/mdqualls">github</a>/&gt;
-                    &lt;<a target="_blank" href="https://www.linkedin.com/in/michael-q-7a36227/">linkedin
-                    </a>/&gt;</h2>
+                    &lt;<a target="_blank" href="https://www.linkedin.com/in/michael-q-7a36227/">linkedin</a>/&gt;</h2>
                 <!--
                 Github, linkedIn ...
                 -->
