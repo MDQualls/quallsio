@@ -4,3 +4,7 @@ Items left to do for first iteration
 * contact form and related backend code
 * email / sendgrid integration
 * customization of contact email
+
+---
+
+* add media queries
