@@ -21,7 +21,8 @@
                 <h1 class="name-text">I am Michael Qualls</h1>
                 <h2 class="profession-text">Professional Full Stack Developer</h2>
                 <h2 class="hero-github-text">&lt;<a target="_blank" href="https://github.com/mdqualls">github</a>/&gt;
-                    &lt;<a target="_blank" href="https://www.linkedin.com/in/michael-q-7a36227/">linkedin</a>/&gt;</h2>
+                    &lt;<a target="_blank" href="https://www.linkedin.com/in/michael-q-7a36227/">linkedin
+                    </a>/&gt;</h2>
                 <!--
                 Github, linkedIn ...
                 -->
@@ -54,17 +55,16 @@
                     </p>
                     <p class="text">
                         I started with Visual Basic and ASP Classic in 1998 for Alamode Software after taking several
-                        Visual Basic courses at the University of Oklahoma and reading several books. Since then I have
-                        never looked back. I have been working as a developer, essentially, since the Internet was
-                        around
-                        and I have not stopped growing and learning yet.
+                        Visual Basic courses at the University of Oklahoma and reading a stack of books. Since then I
+                        have never looked back. I have been working as a developer, essentially, since the Internet was
+                        around and I have not stopped growing and learning yet.
                     </p>
                     <p class="text">
                         Over the years I have worked in PHP, C# (ASP.NET), Node.Js and Python. Currently I am focusing
-                        on PHP application development, but it would not take much to get back up to speed in the
-                        technologies I have worked with previously. If you are looking for an application developer
-                        that is constantly studying and working to build new skills, please contact me. I know that
-                        I can meet your needs.
+                        on PHP application development with Laravel and Vue.Js, but it would not take much to get
+                        back up to speed in the technologies I have worked with previously. If you are looking for
+                        an application developer that is constantly studying and working to hone his skills, please
+                        contact me. I know that I can meet your needs.
                     </p>
                     <div class="about-button-box">
                         <a href="#contact-section" class="btn btn-secondary">Conact Me</a>

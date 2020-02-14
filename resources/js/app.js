@@ -1,9 +1,8 @@
 require('./bootstrap');
 
 document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
-        document.getElementById('preloader').style.visibility = 'hidden';
-    }, 1000);
+
+    document.getElementById('preloader').style.visibility = 'hidden';
 
     var scroll = new SmoothScroll('a[href*="#"]', {
         speed: 700,
