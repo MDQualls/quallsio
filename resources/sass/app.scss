@@ -2,6 +2,10 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic');
 // Variables
 @import 'variables';
+//mixins
+@import "mixins";
+//extends
+@import "extends";
 // header styling
 @import "header";
 // main navigation styling
@@ -16,6 +20,9 @@
 @import "services";
 // timeline section styling
 @import "timeline";
+//contact form styling
+@import "contact";
+
 
 //################################
 // COMMON STYLING
@@ -91,18 +98,12 @@ section:nth-child(even)  {
 }
 
 //################################
-// BUTTON STYLING
+// ANCHOR BUTTON STYLING
 //################################
 
 .btn:link,
 .btn:visited  {
-    display: inline-block;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    border-radius: 5rem;
-    text-decoration: none;
-    padding: 1.3rem 3rem 1rem 3rem;
-    margin-right: 1.2rem;
+    @include button-style-common;
 }
 
 .btn-secondary:link,
@@ -133,4 +134,19 @@ a:visited {
 a:active,
 a:hover  {
     border-bottom: .2rem solid $secondary-color;
+}
+
+//################################
+// BUTTON STYLING
+//################################
+
+button[type=submit]  {
+    @include button-style-common;
+    background-color: $secondary-color;
+    color: $white-color;
+    transition: background-color .2s;
+
+    &:hover  {
+        background-color: $secondary-color-shaded;
+    }
 }

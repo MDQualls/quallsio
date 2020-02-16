@@ -199,6 +199,33 @@
     <section id="contact-section" class="contact-section">
         <div class="row">
             <h2>Contact</h2>
+            <div class="form-box">
+                <form action="#" method="post">
+                    @csrf
+                    <div class="form-group">
+                        <label for="contact_name">Name</label>
+                        <input type="text" id="contact_name" name="contact_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact_email">Email Address</label>
+                        <input type="text" id="contact_email" name="contact_email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact_category">Regarding?</label>
+                        <select name="contact_category`" id="contact_category">
+                            <option value="General Question">General Question</option>
+                            <option value="Project Inquiry">Project Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact_message">Message</label>
+                        <textarea name="contact_message" id="contact_message" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="form-button-group">
+                        <button type="submit" class="form-submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
 

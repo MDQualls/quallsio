@@ -1,0 +1,14 @@
+
+%input-style-common  {
+    line-height: 4rem;
+    font-size: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    color: $dark-font;
+    border: .1rem solid #eee;
+}
+
+%focus-common  {
+    outline: none;
+    box-shadow: 0 0 .1rem $primary-color;
+}
