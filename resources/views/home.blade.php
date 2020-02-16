@@ -200,15 +200,15 @@
         <div class="row">
             <h2>Contact</h2>
             <div class="form-box">
-                <form action="#" method="post">
+                <form id="contact-form" action="#" method="post">
                     @csrf
                     <div class="form-group">
-                        <label for="contact_name">Name</label>
-                        <input type="text" id="contact_name" name="contact_name">
+                        <label for="contact_name">Name <span hidden class="error-span">* This field is required</span></label>
+                        <input value="" type="text" id="contact_name" name="contact_name" required>
                     </div>
                     <div class="form-group">
-                        <label for="contact_email">Email Address</label>
-                        <input type="text" id="contact_email" name="contact_email">
+                        <label for="contact_email">Email Address <span hidden class="error-span">* This field is required</span></label>
+                        <input value="" type="text" id="contact_email" name="contact_email" required>
                     </div>
                     <div class="form-group">
                         <label for="contact_category">Regarding?</label>
@@ -218,11 +218,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="contact_message">Message</label>
-                        <textarea name="contact_message" id="contact_message" cols="30" rows="5"></textarea>
+                        <label for="contact_message">Message <span hidden class="error-span">* This field is required</span></label>
+                        <textarea required name="contact_message" id="contact_message" cols="30" rows="5"></textarea>
                     </div>
                     <div class="form-button-group">
-                        <button type="submit" class="form-submit-button">Submit</button>
+                        <button type="submit" class="form-submit-button" id="contact-form-submit">Submit</button>
                     </div>
                 </form>
             </div>
