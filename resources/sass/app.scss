@@ -2,6 +2,20 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic');
 // Variables
 @import 'variables';
+// header styling
+@import "header";
+// main navigation styling
+@import "mainnav";
+//preloader styling
+@import "preloader";
+// keyframes for animations
+@import "keyframes";
+// about section styling
+@import "about";
+// services section styling
+@import "services";
+// timeline section styling
+@import "timeline";
 
 //################################
 // COMMON STYLING
@@ -120,19 +134,3 @@ a:active,
 a:hover  {
     border-bottom: .2rem solid $secondary-color;
 }
-
-// header styling
-@import "header";
-// main navigation styling
-@import "mainnav";
-//preloader styling
-@import "preloader";
-// keyframes for animations
-@import "keyframes";
-// about section styling
-@import "about";
-// services section styling
-@import "services";
-// timeline section styling
-@import "timeline";
-
