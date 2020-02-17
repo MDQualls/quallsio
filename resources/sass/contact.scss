@@ -14,7 +14,8 @@
             margin: 0 0 .5rem .5rem;
         }
 
-        input[type=text] {
+        input[type=text],
+        input[type=email]{
             @extend %input-style-common;
             padding-left: 1rem;
 

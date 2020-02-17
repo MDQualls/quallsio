@@ -208,7 +208,7 @@
                     </div>
                     <div class="form-group">
                         <label for="contact_email">Email Address <span hidden class="error-span">* This field is required</span></label>
-                        <input value="" type="text" id="contact_email" name="contact_email" required>
+                        <input value="" type="email" id="contact_email" name="contact_email" required>
                     </div>
                     <div class="form-group">
                         <label for="contact_category">Regarding?</label>
