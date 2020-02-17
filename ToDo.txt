@@ -5,6 +5,7 @@ Items left to do for first iteration
 * email / sendgrid integration
 * customization of contact email
 * site footer
+* logging/error handing/auditing db
 
 ---
 
