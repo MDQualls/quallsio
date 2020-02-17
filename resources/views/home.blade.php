@@ -200,7 +200,7 @@
         <div class="row">
             <h2>Contact</h2>
             <div class="form-box">
-                <form id="contact-form" action="#" method="post">
+                <form id="contact-form" action="{{route('send-contact')}}" method="post">
                     @csrf
                     <div class="form-group">
                         <label for="contact_name">Name <span hidden class="error-span">* This field is required</span></label>

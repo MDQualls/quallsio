@@ -19301,11 +19301,13 @@ document.addEventListener("DOMContentLoaded", function () {
   $("#contact-form-submit").on("click", function (e) {
     var frm = $("#contact-form");
     var valid = true;
-    var regex = RegExp('^[a-zA-Z0-9.@\-\s]+$');
+    var regex = RegExp('[a-zA-Z0-9.@\-\s]+$');
     $(".error-span").hide();
     frm.find('input, textarea').removeClass('validation-error');
     frm.find('input, textarea').each(function (_, field) {
-      if (regex.test($(field).val()) === false) {
+      var val = $.trim($(field).val());
+
+      if (regex.test(val) === false) {
         valid = false;
         $(field).prev("label").find(".error-span").show();
         $(field).addClass('validation-error');
