@@ -15,7 +15,7 @@
           crossorigin="anonymous">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="../../css/app.css" rel="stylesheet">
 
     @yield('css')
 
@@ -31,10 +31,10 @@
 </footer>
 
 <!-- Scripts -->
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
-<script src="{{ asset('js/smooth-scroll.min.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/jquery.waypoints.min.js"></script>
+<script src="../../js/smooth-scroll.min.js"></script>
+<script src="../../js/app.js"></script>
 
 
 @yield('scripts')
