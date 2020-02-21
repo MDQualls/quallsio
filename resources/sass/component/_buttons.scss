@@ -1,0 +1,41 @@
+//################################
+// ANCHOR BUTTON STYLING
+//################################
+
+.btn  {
+    &:link,
+    &:visited  {
+        @include button-style-common;
+    }
+}
+
+.btn-secondary  {
+    &:link,
+    &:visited  {
+        background-color: $secondary-color;
+        color: $white-color;
+        transition: background-color .2s;
+    }
+
+    &:hover,
+    &:active  {
+        background-color: $secondary-color-shaded;
+    }
+}
+
+
+//################################
+// BUTTON STYLING
+//################################
+
+button[type=submit]  {
+    @include button-style-common;
+    background-color: $secondary-color;
+    color: $white-color;
+    transition: background-color .2s;
+
+    &:hover  {
+        background-color: $secondary-color-shaded;
+        cursor: pointer;
+    }
+}

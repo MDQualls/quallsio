@@ -59,12 +59,12 @@ header {
             left: 2.8rem;
             transition: left 0.2s, font-size 0.2s;
             font-size: 6.2rem;
-        }
 
-        i:hover  {
-            left: 2.7rem;
-            font-size: 6.6rem;
-            cursor: pointer;
+            &:hover  {
+                left: 2.7rem;
+                font-size: 6.6rem;
+                cursor: pointer;
+            }
         }
     }
 

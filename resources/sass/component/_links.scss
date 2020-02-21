@@ -1,0 +1,19 @@
+//################################
+// LINK STYLING
+//################################
+
+a  {
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: $light-font;
+        padding-bottom: .4rem;
+        border-bottom: .2rem solid transparent;
+        transition: border-bottom 0.2s;
+    }
+
+    &:active,
+    &:hover  {
+        border-bottom: .2rem solid $secondary-color;
+    }
+}

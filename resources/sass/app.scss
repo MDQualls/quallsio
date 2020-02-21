@@ -1,166 +1,23 @@
-// Fonts
+
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic');
-// Variables
-@import 'variables';
-//mixins
-@import "mixins";
-//extends
-@import "extends";
-// header styling
+
+@import 'abstract/variables';
+@import "abstract/mixins";
+@import "abstract/extends";
+@import "abstract/keyframes";
+
+@import "utility";
+@import "component/buttons";
+@import "component/links";
+
+@import "base";
 @import "header";
-// main navigation styling
 @import "mainnav";
-//preloader styling
 @import "preloader";
-// keyframes for animations
-@import "keyframes";
-// about section styling
+
 @import "about";
-// services section styling
 @import "services";
-// timeline section styling
 @import "timeline";
-//contact form styling
 @import "contact";
+@import "footer";
 
-
-//################################
-// COMMON STYLING
-//################################
-
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
-}
-
-html  {
-    font-size: $font-base-size
-}
-
-body {
-    background-color: $light-color;
-    font-size: $font-base-size;
-    color: $dark-font;
-    font-family: 'Lato', 'Arial', sans-serif;
-    line-height: 1.1;
-    box-sizing: border-box;
-}
-
-.row {
-    max-width: 114rem;
-    margin: 0 auto;
-}
-
-footer  {
-    background-color: $dark-color;
-}
-
-//################################
-// SECTION STYLING
-//################################
-
-section {
-    padding: 100px 0 80px 0;
-    text-align: center;
-
-    h2  {
-        font-size: 4rem;
-        text-transform: uppercase;
-        font-weight: 300;
-        letter-spacing: .6rem;
-    }
-
-    h2:after {
-        display: block;
-        height: 2px;
-        background-color: $secondary-color;
-        content: " ";
-        width: 10rem;
-        margin: 2rem auto 3rem auto;
-    }
-
-    p.lead  {
-        font-size: 2.3rem;
-        font-weight: 400;
-        margin-bottom: 2rem;
-    }
-
-    p.text  {
-        margin-bottom: 1.5rem;
-    }
-}
-
-section:nth-child(even)  {
-    background-color: $white-color;
-}
-
-//################################
-// ANCHOR BUTTON STYLING
-//################################
-
-.btn:link,
-.btn:visited  {
-    @include button-style-common;
-}
-
-.btn-secondary:link,
-.btn-secondary:visited  {
-    background-color: $secondary-color;
-    color: $white-color;
-    transition: background-color .2s;
-}
-
-.btn-secondary:hover,
-.btn-secondary:active  {
-    background-color: $secondary-color-shaded;
-}
-
-//################################
-// LINK STYLING
-//################################
-
-a:link,
-a:visited {
-    text-decoration: none;
-    color: $light-font;
-    padding-bottom: .4rem;
-    border-bottom: .2rem solid transparent;
-    transition: border-bottom 0.2s;
-}
-
-a:active,
-a:hover  {
-    border-bottom: .2rem solid $secondary-color;
-}
-
-//################################
-// BUTTON STYLING
-//################################
-
-button[type=submit]  {
-    @include button-style-common;
-    background-color: $secondary-color;
-    color: $white-color;
-    transition: background-color .2s;
-
-    &:hover  {
-        background-color: $secondary-color-shaded;
-        cursor: pointer;
-    }
-}
-
-//################################
-// VALIDATION STYLING
-//################################
-
-.validation-error {
-    background-color: #ffe6ea;
-}
-
-.error-span  {
-    font-size: 1.6rem;
-    color: #d63031;
-}
