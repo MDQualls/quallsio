@@ -13,4 +13,4 @@
 
 Route::get('/', "HomeController@index")->name('home');
 
-Route::post('sendcontact','ContactController@index')->name('send-contact');
+Route::post('sendcontact','ContactController@create')->name('send-contact');
