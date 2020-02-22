@@ -1,5 +1,6 @@
 <?php
 use App\Providers\RepositoryServiceProvider;
+use App\Providers\ServiceServiceProvider;
 
 return [
 
@@ -181,6 +182,7 @@ return [
          */
 
         RepositoryServiceProvider::class,
+        ServiceServiceProvider::class,
 
     ],
 
