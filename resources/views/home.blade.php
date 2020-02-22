@@ -212,7 +212,7 @@
                     </div>
                     <div class="form-group">
                         <label for="contact_category">Regarding?</label>
-                        <select name="contact_category`" id="contact_category">
+                        <select name="contact_category" id="contact_category">
                             <option value="General Question">General Question</option>
                             <option value="Project Inquiry">Project Inquiry</option>
                         </select>
