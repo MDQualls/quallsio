@@ -5,7 +5,7 @@ Qualls.IO - Portolio site
 
 New project for a Site for my portfolio / resume; just started ... far from complete!  
 
-_Initial tech_
+__Initial tech__
 
 * SASS/CSS3/HTML5
 * Laravel 6
