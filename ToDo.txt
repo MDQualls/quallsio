@@ -1,7 +1,6 @@
 Items left to do for first iteration
 
 * photo for the about page
-* contact form and related backend code
 * email / sendgrid integration
 * customization of contact email
 * site footer
