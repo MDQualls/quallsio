@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\Contacts;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -12,13 +13,18 @@ class ContactMessage extends Mailable
     use Queueable, SerializesModels;
 
     /**
+     * @var Contacts
+     */
+    public $contact;
+
+    /**
      * Create a new message instance.
      *
-     * @return void
+     * @param Contacts $contact
      */
-    public function __construct()
+    public function __construct(Contacts $contact)
     {
-        //
+        $this->contact = $contact;
     }
 
     /**
