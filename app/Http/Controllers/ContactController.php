@@ -22,6 +22,6 @@ class ContactController extends Controller
     {
         $this->contactRepository->create($request);
 
-        return redirect()->route('home', ['#contact-section']);
+        return redirect()->route('home');
     }
 }

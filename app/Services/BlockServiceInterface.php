@@ -8,4 +8,10 @@ interface BlockServiceInterface
      * @return bool
      */
     public function isBlocked($ip) : bool;
+
+    /**
+     * @param $ip
+     * @return bool
+     */
+    public function shouldBlock($ip) : bool;
 }

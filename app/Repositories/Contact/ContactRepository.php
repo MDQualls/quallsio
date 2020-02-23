@@ -40,4 +40,18 @@ class ContactRepository implements ContactRepositoryInterface
 
         return $contact;
     }
+
+    /**
+     * @param string $ip
+     * @return mixed
+     */
+    public function getIpForToday($ip)
+    {
+        $result = $this->contact::where([
+            ['ip_address','=',$ip],
+            ['created_at','>=',today()],
+        ])->get();
+
+        return $result;
+    }
 }

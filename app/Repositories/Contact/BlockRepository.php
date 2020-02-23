@@ -27,4 +27,15 @@ class BlockRepository implements BlockRepositoryInterface
 
         return $this->block::where('ip_address', '=', $ip)->first();
     }
+
+    /**
+     * @param $ip
+     * @return mixed
+     */
+    public function insert($ip)
+    {
+       return $this->block::create([
+            'ip_address' => $ip,
+        ]);
+    }
 }

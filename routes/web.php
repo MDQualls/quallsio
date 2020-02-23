@@ -13,7 +13,7 @@
 
 Route::get('/', "HomeController@index")->name('home');
 
-Route::middleware(['blockedIp'])->group(function()  {
+Route::middleware(['blockedIp', 'shouldBlockIp'])->group(function()  {
     Route::post('sendcontact','ContactController@create')->name('send-contact');
 });
 
