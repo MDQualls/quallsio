@@ -183,6 +183,7 @@ return [
 
         RepositoryServiceProvider::class,
         ServiceServiceProvider::class,
+        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
 
     ],
 

@@ -1,8 +1,6 @@
 Items left to do for first iteration
 
 * photo for the about page
-* email / sendgrid integration
-* customization of contact email
 * Laravel captcha
 
 * site footer

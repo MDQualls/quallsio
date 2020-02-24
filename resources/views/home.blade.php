@@ -221,6 +221,9 @@
                         <label for="contact_message">Message <span hidden class="error-span">* This field is required</span></label>
                         <textarea required name="contact_message" id="contact_message" cols="30" rows="5"></textarea>
                     </div>
+                    <div class="form group">
+                        {!! app('captcha')->display(); !!}
+                    </div>
                     <div class="form-button-group">
                         <button type="submit" class="form-submit-button" id="contact-form-submit">Submit</button>
                     </div>
