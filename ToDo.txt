@@ -1,7 +1,6 @@
 Items left to do for first iteration
 
 * photo for the about page
-* Laravel captcha
 
 * site footer
 * logging/error handing/auditing db
