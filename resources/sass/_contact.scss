@@ -22,6 +22,10 @@
             &:focus {
                 @extend %focus-common;
             }
+
+            &:focus:invalid  {
+                @extend %focus-invalid-common;
+            }
         }
 
         select  {
@@ -41,6 +45,10 @@
 
             &:focus {
                 @extend %focus-common;
+            }
+
+            &:focus:invalid  {
+                @extend %focus-invalid-common;
             }
         }
     }

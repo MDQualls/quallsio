@@ -232,8 +232,29 @@
         </div>
     </section>
 
-    <footer>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-header">
+                <h3>Qualls.IO</h3>
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-links">
+                    <ul class="footer-nav-ul">
+                        <li class="nav-item"><a href="#about-section">About Me</a></li>
+                        <li class="nav-item"><a href="#services-section">Services</a></li>
+                        <li class="nav-item"><a href="#timeline-section">Timeline</a></li>
+                        <li class="nav-item"><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-copy">
+                    This Web site and all of it's content is protected by Copyright &copy; 2020 and
+                    should not be used without the express consent of Michael D. Qualls.  Please
+                    contact me with any questions.
+                </div>
+            </div>
+        </div>
     </footer>
 
 @endsection

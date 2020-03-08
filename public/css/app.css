@@ -5,9 +5,11 @@
   line-height: 4rem;
   font-size: 2rem;
   width: 100%;
-  border-radius: 1rem;
-  color: #555;
-  border: 0.1rem solid #eee;
+  border-radius: 0.3rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-bottom: 0.3rem solid transparent;
 }
 
 .form-box .form-group textarea:focus,
@@ -16,6 +18,22 @@
 .form-box .form-group input[type=email]:focus {
   outline: none;
   box-shadow: 0 0 0.1rem #344955;
+  border-bottom: 0.3rem solid #344955;
+}
+
+.form-box .form-group textarea:focus:invalid,
+.form-box .form-group input[type=text]:focus:invalid,
+.form-box .form-group input[type=email]:focus:invalid {
+  border-bottom: 0.3rem solid orangered;
+}
+
+.footer-header h3,
+.timeline-section .timeline-box h3 {
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
 }
 
 @-webkit-keyframes moveFromLeft {
@@ -402,30 +420,36 @@ header .hero-text-area .hero-github-text {
           animation-fill-mode: backwards;
 }
 
-nav {
+nav,
+footer {
   color: #efefef;
   background-color: #344955;
   padding: 2rem 0;
 }
 
-nav .main-nav-ul {
+nav .main-nav-ul,
+footer .main-nav-ul {
   float: right;
   list-style: none;
 }
 
 nav .nav-branding-area,
-nav .nav-item {
+nav .nav-item,
+footer .nav-branding-area,
+footer .nav-item {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 
-nav .nav-branding-area {
+nav .nav-branding-area,
+footer .nav-branding-area {
   font-size: 2.1rem;
   margin-top: 0.2rem;
 }
 
-nav .nav-item {
+nav .nav-item,
+footer .nav-item {
   margin-left: 4rem;
   font-size: 1.6rem;
   margin-top: 0.6rem;
@@ -576,14 +600,6 @@ Preloader style
   position: relative;
 }
 
-.timeline-section .timeline-box h3 {
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  font-size: 2rem;
-  margin-top: 0.3rem;
-  margin-bottom: 2rem;
-}
-
 .timeline-section .timeline-box p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
@@ -660,7 +676,26 @@ Preloader style
   font-family: "Lato", "Arial", sans-serif;
 }
 
-footer {
-  background-color: #263238;
+.footer {
+  padding: 6rem;
+  font-size: 1.6rem;
+  height: 100%;
+  color: #efefef;
+}
+
+.footer-header {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+
+.footer-links {
+  float: left;
+}
+
+.footer-copy {
+  float: right;
+  width: 40%;
+  line-height: 2rem;
 }
 
