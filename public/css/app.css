@@ -433,6 +433,11 @@ footer .main-nav-ul {
   list-style: none;
 }
 
+nav .main-nav-ul li:not(:first-child),
+footer .main-nav-ul li:not(:first-child) {
+  margin-left: 4rem;
+}
+
 nav .nav-branding-area,
 nav .nav-item,
 footer .nav-branding-area,
@@ -450,7 +455,6 @@ footer .nav-branding-area {
 
 nav .nav-item,
 footer .nav-item {
-  margin-left: 4rem;
   font-size: 1.6rem;
   margin-top: 0.6rem;
 }
@@ -691,11 +695,20 @@ Preloader style
 
 .footer-links {
   float: left;
+  padding-top: 2rem;
+  border-top: 0.1rem dashed #f9aa33;
+  display: inline-block;
 }
 
 .footer-copy {
   float: right;
   width: 40%;
   line-height: 2rem;
+  padding-top: 2rem;
+  border-top: 0.1rem dashed #f9aa33;
+}
+
+.footer-nav-ul li:not(:first-child) {
+  margin-left: 4rem;
 }
 

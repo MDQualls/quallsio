@@ -7,6 +7,10 @@ footer {
     .main-nav-ul {
         float: right;
         list-style: none;
+
+        & li:not(:first-child) {
+            margin-left: 4rem;
+        }
     }
 
     .nav-branding-area,
@@ -22,7 +26,6 @@ footer {
     }
 
     .nav-item {
-        margin-left: 4rem;
         font-size: 1.6rem;
         margin-top: .6rem;
     }

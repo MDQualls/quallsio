@@ -16,10 +16,19 @@
 
 .footer-links  {
     float: left;
+    padding-top: 2rem;
+    border-top: .1rem dashed $secondary-color;
+    display: inline-block;
 }
 
 .footer-copy  {
     float: right;
     width: 40%;
     line-height: 2rem;
+    padding-top: 2rem;
+    border-top: .1rem dashed $secondary-color;
+}
+
+.footer-nav-ul li:not(:first-child) {
+    margin-left: 4rem;
 }
