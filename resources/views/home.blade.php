@@ -235,7 +235,7 @@
     <footer class="footer">
         <div class="row">
             <div class="footer-header">
-                <h3>Qualls.IO</h3>
+                <h3><a href="#top">Qualls.IO</a></h3>
             </div>
 
             <div class="footer-content">
