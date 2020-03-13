@@ -46,9 +46,9 @@ header {
         float: right;
         backface-visibility: hidden;
 
-        a,
-        a:active,
-        a:visited {
+        a:link,
+        a:visited,
+        a:active  {
             text-decoration: none;
             color: $light-color;
         }
@@ -57,13 +57,12 @@ header {
             position: absolute;
             top: 1.8rem;
             left: 2.8rem;
-            transition: left 0.2s, font-size 0.2s;
+            transition: all 0.2s;
             font-size: 6.2rem;
 
-            &:hover  {
-                left: 2.7rem;
-                font-size: 6.6rem;
-                cursor: pointer;
+            &:hover
+            {
+                transform: scale(1.2);
             }
         }
     }

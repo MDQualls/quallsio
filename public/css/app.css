@@ -344,9 +344,9 @@ header .header-nav-area {
           backface-visibility: hidden;
 }
 
-header .header-nav-area a,
-header .header-nav-area a:active,
-header .header-nav-area a:visited {
+header .header-nav-area a:link,
+header .header-nav-area a:visited,
+header .header-nav-area a:active {
   text-decoration: none;
   color: #eceff1;
 }
@@ -355,14 +355,12 @@ header .header-nav-area i {
   position: absolute;
   top: 1.8rem;
   left: 2.8rem;
-  transition: left 0.2s, font-size 0.2s;
+  transition: all 0.2s;
   font-size: 6.2rem;
 }
 
 header .header-nav-area i:hover {
-  left: 2.7rem;
-  font-size: 6.6rem;
-  cursor: pointer;
+  transform: scale(1.2);
 }
 
 header .hero-text-area {
