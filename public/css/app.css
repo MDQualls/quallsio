@@ -270,7 +270,7 @@ html {
 
 @media (min-width: 112.5em) {
   html {
-    font-size: 75%;
+    font-size: 68.75%;
   }
 }
 
@@ -348,8 +348,8 @@ header {
 
 header .header-logo-area,
 header .header-nav-area {
-  height: 10rem;
-  width: 10rem;
+  height: 9rem;
+  width: 9rem;
   color: #eceff1;
   background: #f9aa33;
   border-radius: 5rem;
@@ -363,13 +363,28 @@ header .header-nav-area {
           animation-fill-mode: backwards;
 }
 
+@media (max-width: 75em) {
+  header .header-logo-area,
+  header .header-nav-area {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+
 header .header-logo-area .header-me-img {
   position: absolute;
-  left: 0.4rem;
+  left: 0.3rem;
   top: 0.5rem;
-  width: 9rem;
+  width: 8rem;
   border-radius: 5rem;
   transition: left 0.3s, top 0.3s, width 0.3s;
+}
+
+@media (max-width: 75em) {
+  header .header-logo-area .header-me-img {
+    width: 7rem;
+    left: 0.35rem;
+  }
 }
 
 @media (max-width: 56.25em) {
@@ -381,7 +396,7 @@ header .header-logo-area .header-me-img {
 @media (max-width: 37.5em) {
   header .header-logo-area .header-me-img {
     top: 0.4rem;
-    left: 0.31rem;
+    left: 0.315rem;
   }
 }
 
@@ -390,6 +405,18 @@ header .header-logo-area .header-me-img:hover {
   left: 0;
   top: 0;
   width: 10rem;
+}
+
+@media (max-width: 75em) {
+  header .header-logo-area .header-me-img:hover {
+    width: 8.2rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  header .header-logo-area .header-me-img:hover {
+    width: 8rem;
+  }
 }
 
 header .header-nav-area {
@@ -407,10 +434,24 @@ header .header-nav-area a:active {
 
 header .header-nav-area i {
   position: absolute;
-  top: 1.8rem;
-  left: 2.8rem;
+  top: 1.4rem;
+  left: 2.4rem;
   transition: all 0.2s;
   font-size: 6.2rem;
+}
+
+@media (max-width: 75em) {
+  header .header-nav-area i {
+    top: 1.6rem;
+    left: 2.3rem;
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  header .header-nav-area i {
+    left: 2.2rem;
+  }
 }
 
 header .header-nav-area i:hover {
@@ -492,7 +533,7 @@ header .hero-text-area .hero-github-text {
   padding: 2rem 0;
 }
 
-@media (max-width: 56.25em) {
+@media (max-width: 75em) {
   .nav {
     padding: 2rem 4rem;
   }

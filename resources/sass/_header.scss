@@ -9,8 +9,8 @@ header {
 
     .header-logo-area,
     .header-nav-area {
-        height: 10rem;
-        width: 10rem;
+        height: 9rem;
+        width: 9rem;
         color: $light-color;
         background: $secondary-color;
         border-radius: 5rem;
@@ -20,16 +20,26 @@ header {
         position: relative;
         animation: fadeIn 1.5s ease-out 2.5s;
         animation-fill-mode: backwards;
+
+        @include respond(tab-land)  {
+            height: 8rem;
+            width: 8rem;
+        }
     }
 
     .header-logo-area {
         .header-me-img {
             position: absolute;
-            left: .4rem;
+            left: .3rem;
             top: .5rem;
-            width: 9rem;
+            width: 8rem;
             border-radius: 5rem;
             transition: left 0.3s, top 0.3s, width 0.3s;
+
+            @include respond(tab-land)  {
+                width: 7rem;
+                left: .35rem;
+            }
 
             @include respond(tab-port)  {
                 left: .3rem;
@@ -37,7 +47,7 @@ header {
 
             @include respond(phone)  {
                 top: .4rem;
-                left: .31rem;
+                left: .315rem;
             }
         }
 
@@ -46,6 +56,14 @@ header {
             left: 0;
             top: 0;
             width: 10rem;
+
+            @include respond(tab-land)  {
+                width: 8.2rem;
+            }
+
+            @include respond(tab-port)  {
+                width: 8rem;
+            }
         }
     }
 
@@ -62,10 +80,20 @@ header {
 
         i {
             position: absolute;
-            top: 1.8rem;
-            left: 2.8rem;
+            top: 1.4rem;
+            left: 2.4rem;
             transition: all 0.2s;
             font-size: 6.2rem;
+
+            @include respond(tab-land)  {
+                top: 1.6rem;
+                left: 2.3rem;
+                font-size: 5rem;
+            }
+
+            @include respond(tab-port)  {
+                left: 2.2rem;
+            }
 
             &:hover
             {
