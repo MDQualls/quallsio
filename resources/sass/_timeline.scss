@@ -1,8 +1,13 @@
 .timeline-section  {
 
+    @include respond(phone)  {
+        padding-bottom: 0 !important;
+    }
+
     .timeline-box  {
 
         text-align: center;
+
 
         ul  {
             width: 70%;
@@ -19,10 +24,19 @@
             text-align: left;
             font-weight: 300;
             position: relative;
+
+            @include respond(phone)  {
+                width: 100%;
+                margin: 0;
+            }
         }
 
         h3 {
             @extend %h3-common;
+
+            @include respond(phone)  {
+                margin-top: 6rem;
+            }
         }
 
         p  {
@@ -56,6 +70,12 @@
                 min-width: .4rem;
                 font-weight: 300;
 
+                @include respond(phone)  {
+                    left: 0;
+                    color: $light-font;
+                    top: -3rem;
+                }
+
             }
 
             &:after {
@@ -67,6 +87,10 @@
                 width: 1.1rem;
                 content: "";
                 top: 5px;
+
+                @include respond(phone)  {
+                    display: none;
+                }
             }
         }
     }

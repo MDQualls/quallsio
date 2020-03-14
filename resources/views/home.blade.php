@@ -46,7 +46,7 @@
             <h2>About Me</h2>
             <div class="about-text-box">
                 <div class="portrait-box">
-                    <img src="https://placeimg.com/350/450/any" alt="Portrait">
+                    <img class="portrait-box-image" src="https://placeimg.com/350/450/any" alt="Portrait">
                 </div>
                 <div class="about-box">
                     <p class="lead">

@@ -1,31 +1,58 @@
 .about-section  {
 
-    .about-box  {
-        text-align: justify;
-        margin: 0 2rem;
-
-        p:last-of-type  {
-            margin-bottom: 5rem;
-        }
-    }
-
     .about-text-box  {
-        display: flex;
         font-size: 1.8rem;
         line-height: 2.7rem;
+        display: flex;
         justify-content: center;
         align-items: center;
 
         @include respond(tab-port)  {
             margin: 0 2rem;
+            align-items: start;
+        }
+
+        @include respond(phone)  {
+            display: block;
         }
     }
 
     .portrait-box  {
         margin: 0 2rem;
+        width: 200rem;
+
+        @include respond(phone)  {
+            width: 100%;
+            margin: 0;
+        }
+
+        .portrait-box-image  {
+            width: 100%;
+        }
+    }
+
+    .about-box  {
+        text-align: justify;
+        margin: 0 2rem;
+
+        @include respond(phone)  {
+            margin: 4rem 1rem 0 1rem;
+        }
+
+        p:last-of-type  {
+            margin-bottom: 5rem;
+
+            @include respond(tab-port)  {
+                margin-bottom: 3rem;
+            }
+        }
     }
 
     .about-button-box  {
-        margin-top: 2rem;
+        margin-top: 6rem;
+
+        @include respond(tab-port)  {
+            margin-top: 3.5rem;
+        }
     }
 }
