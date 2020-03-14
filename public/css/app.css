@@ -280,6 +280,12 @@ html {
   }
 }
 
+@media (max-width: 37.5em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
 body {
   background-color: #eceff1;
   font-size: 62.5%;
@@ -366,6 +372,19 @@ header .header-logo-area .header-me-img {
   transition: left 0.3s, top 0.3s, width 0.3s;
 }
 
+@media (max-width: 56.25em) {
+  header .header-logo-area .header-me-img {
+    left: 0.3rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  header .header-logo-area .header-me-img {
+    top: 0.4rem;
+    left: 0.31rem;
+  }
+}
+
 header .header-logo-area .header-me-img:hover {
   position: absolute;
   left: 0;
@@ -411,6 +430,12 @@ header .hero-text-area {
 @media (max-width: 56.25em) {
   header .hero-text-area {
     padding: 5rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  header .hero-text-area {
+    margin-top: 8rem;
   }
 }
 
@@ -500,6 +525,12 @@ footer {
 
 footer .footer-nav-ul li:not(:first-child) {
   margin-left: 4rem;
+}
+
+@media (max-width: 37.5em) {
+  footer .footer-nav-ul li:not(:first-child) {
+    margin-left: 2rem;
+  }
 }
 
 footer .nav-item {

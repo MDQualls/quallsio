@@ -30,6 +30,15 @@ header {
             width: 9rem;
             border-radius: 5rem;
             transition: left 0.3s, top 0.3s, width 0.3s;
+
+            @include respond(tab-port)  {
+                left: .3rem;
+            }
+
+            @include respond(phone)  {
+                top: .4rem;
+                left: .31rem;
+            }
         }
 
         .header-me-img:hover  {
@@ -74,6 +83,10 @@ header {
 
         @include respond(tab-port)  {
             padding: 5rem;
+        }
+
+        @include respond(phone)  {
+            margin-top: 8rem;
         }
 
         h1,
