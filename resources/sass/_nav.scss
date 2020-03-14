@@ -7,6 +7,10 @@
         padding: 2rem 4rem;
     }
 
+    @include respond(phone)  {
+        display: none;
+    }
+
     .main-nav-ul {
         float: right;
         list-style: none;
@@ -37,7 +41,7 @@ footer {
         margin-left: 4rem;
 
         @include respond(phone)  {
-            margin-left: 2rem;
+            margin-left: 1rem;
         }
     }
 

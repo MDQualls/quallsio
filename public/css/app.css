@@ -546,6 +546,12 @@ header .hero-text-area .hero-github-text {
   }
 }
 
+@media (max-width: 37.5em) {
+  .nav {
+    display: none;
+  }
+}
+
 .nav .main-nav-ul {
   float: right;
   list-style: none;
@@ -577,7 +583,7 @@ footer .footer-nav-ul li:not(:first-child) {
 
 @media (max-width: 37.5em) {
   footer .footer-nav-ul li:not(:first-child) {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 }
 
@@ -926,6 +932,13 @@ footer,
   color: #efefef;
 }
 
+@media (max-width: 37.5em) {
+  footer,
+  .footer {
+    padding-bottom: 0;
+  }
+}
+
 .footer-header {
   text-align: center;
   text-transform: uppercase;
@@ -939,11 +952,28 @@ footer,
   display: inline-block;
 }
 
+@media (max-width: 37.5em) {
+  .footer-content .footer-links {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
 .footer-content .footer-copy {
   float: right;
   width: 40%;
   line-height: 2rem;
   padding-top: 2rem;
   border-top: 0.1rem dashed #f9aa33;
+}
+
+@media (max-width: 37.5em) {
+  .footer-content .footer-copy {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-top: 6rem;
+  }
 }
 

@@ -4,6 +4,10 @@ footer,
     font-size: 1.6rem;
     height: 100%;
     color: $light-font;
+
+    @include respond(phone)  {
+        padding-bottom: 0;
+    }
 }
 
 .footer-header  {
@@ -16,12 +20,18 @@ footer,
 }
 
 .footer-content  {
-    
+
     .footer-links  {
         float: left;
         padding-top: 2rem;
         border-top: .1rem dashed $secondary-color;
         display: inline-block;
+
+        @include respond(phone)  {
+            display: block;
+            float: none;
+            width: 100%;
+        }
     }
 
     .footer-copy  {
@@ -30,5 +40,12 @@ footer,
         line-height: 2rem;
         padding-top: 2rem;
         border-top: .1rem dashed $secondary-color;
+
+        @include respond(phone)  {
+            display: block;
+            float: none;
+            width: 100%;
+            margin-top: 6rem;
+        }
     }
 }
