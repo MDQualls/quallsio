@@ -1,4 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic);.form-box .form-group textarea,
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic);/*
+0 - 600 PX: PHONE
+600-900 PX: TABLET PORTRAIT
+900-1200 PX: TABLE LANDSCAPE
+1200-1800 PX: NORMAL DESKTOP (DEFAULT STYLES)
+1800 PX + BIG DESKTOP
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+
+.form-box .form-group textarea,
 .form-box .form-group select,
 .form-box .form-group input[type=text],
 .form-box .form-group input[type=email] {
@@ -34,6 +48,14 @@
   font-size: 2rem;
   margin-top: 0.3rem;
   margin-bottom: 2rem;
+}
+
+footer .nav-item,
+.nav .nav-item,
+.nav .nav-branding-area {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 @-webkit-keyframes moveFromLeft {
@@ -246,6 +268,18 @@ html {
   font-size: 62.5%;
 }
 
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   background-color: #eceff1;
   font-size: 62.5%;
@@ -261,7 +295,7 @@ body {
 }
 
 section {
-  padding: 100px 0 80px 0;
+  padding: 10rem 0;
   text-align: center;
 }
 
@@ -279,6 +313,7 @@ section h2:after {
   content: " ";
   width: 10rem;
   margin: 2rem auto 3rem auto;
+  margin-bottom: 4rem;
 }
 
 section p.lead {
@@ -365,10 +400,18 @@ header .header-nav-area i:hover {
 
 header .hero-text-area {
   text-transform: uppercase;
-  position: absolute;
-  top: 50%;
-  left: 39%;
-  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 75em) {
+  header .hero-text-area {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  header .hero-text-area {
+    padding: 5rem;
+  }
 }
 
 header .hero-text-area h1,
@@ -418,40 +461,47 @@ header .hero-text-area .hero-github-text {
           animation-fill-mode: backwards;
 }
 
-nav,
+.nav {
+  color: #efefef;
+  background-color: #344955;
+  padding: 2rem 0;
+}
+
+@media (max-width: 56.25em) {
+  .nav {
+    padding: 2rem 4rem;
+  }
+}
+
+.nav .main-nav-ul {
+  float: right;
+  list-style: none;
+}
+
+.nav .main-nav-ul li:not(:first-child) {
+  margin-left: 4rem;
+}
+
+.nav .nav-branding-area {
+  font-size: 2.1rem;
+  margin-top: 0.2rem;
+}
+
+.nav .nav-item {
+  font-size: 1.6rem;
+  margin-top: 0.6rem;
+}
+
 footer {
   color: #efefef;
   background-color: #344955;
   padding: 2rem 0;
 }
 
-nav .main-nav-ul,
-footer .main-nav-ul {
-  float: right;
-  list-style: none;
-}
-
-nav .main-nav-ul li:not(:first-child),
-footer .main-nav-ul li:not(:first-child) {
+footer .footer-nav-ul li:not(:first-child) {
   margin-left: 4rem;
 }
 
-nav .nav-branding-area,
-nav .nav-item,
-footer .nav-branding-area,
-footer .nav-item {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-nav .nav-branding-area,
-footer .nav-branding-area {
-  font-size: 2.1rem;
-  margin-top: 0.2rem;
-}
-
-nav .nav-item,
 footer .nav-item {
   font-size: 1.6rem;
   margin-top: 0.6rem;
@@ -526,6 +576,15 @@ Preloader style
   }
 }
 
+.about-section .about-box {
+  text-align: justify;
+  margin: 0 2rem;
+}
+
+.about-section .about-box p:last-of-type {
+  margin-bottom: 5rem;
+}
+
 .about-section .about-text-box {
   display: flex;
   font-size: 1.8rem;
@@ -534,12 +593,13 @@ Preloader style
   align-items: center;
 }
 
-.about-section .portrait-box {
-  margin: 0 2rem;
+@media (max-width: 56.25em) {
+  .about-section .about-text-box {
+    margin: 0 2rem;
+  }
 }
 
-.about-section .about-box {
-  text-align: justify;
+.about-section .portrait-box {
   margin: 0 2rem;
 }
 
@@ -552,6 +612,12 @@ Preloader style
   font-size: 1.8rem;
   align-items: flex-start;
   text-align: left;
+}
+
+@media (max-width: 56.25em) {
+  .services-section .services-text-box {
+    margin: 2rem 2rem 0 2rem;
+  }
 }
 
 .services-section .service-box {
@@ -678,6 +744,7 @@ Preloader style
   font-family: "Lato", "Arial", sans-serif;
 }
 
+footer,
 .footer {
   padding: 6rem;
   font-size: 1.6rem;
@@ -691,22 +758,18 @@ Preloader style
   margin-bottom: 6rem;
 }
 
-.footer-links {
+.footer-content .footer-links {
   float: left;
   padding-top: 2rem;
   border-top: 0.1rem dashed #f9aa33;
   display: inline-block;
 }
 
-.footer-copy {
+.footer-content .footer-copy {
   float: right;
   width: 40%;
   line-height: 2rem;
   padding-top: 2rem;
   border-top: 0.1rem dashed #f9aa33;
-}
-
-.footer-nav-ul li:not(:first-child) {
-  margin-left: 4rem;
 }
 

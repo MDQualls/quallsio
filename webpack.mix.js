@@ -15,3 +15,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
 mix.copy('node_modules/smooth-scroll/dist/smooth-scroll.min.js', 'public/js/smooth-scroll.min.js');
+
+mix.browserSync({
+    proxy: '127.0.0.1:8000'
+});

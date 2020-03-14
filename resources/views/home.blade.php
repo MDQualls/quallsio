@@ -29,7 +29,7 @@
         </div>
     </header>
 
-    <nav class="main-nav" id="main-nav-bar">
+    <nav class="nav main-nav" id="main-nav-bar">
         <div class="row">
             <div class="nav-branding-area"><a href="#top">Qualls.IO</a></div>
             <ul class="main-nav-ul">
