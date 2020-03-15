@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     $('#main-nav-bar').waypoint(function (direction) {
         if (direction === "down") {
-            $('nav').addClass('sticky');
+            $('#main-nav-bar').addClass('sticky');
         } else {
-            $('nav').removeClass('sticky');
+            $('#main-nav-bar').removeClass('sticky');
         }
     }, {
         offset: '80px;'
@@ -38,5 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         return valid;
+    });
+
+    $(".mobile-nav-link").on("click", function(e)  {
+        $("#navi-toggle").prop("checked", !$("#navi-toggle").prop("checked"));
     });
 });

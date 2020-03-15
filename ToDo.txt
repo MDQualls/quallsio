@@ -5,6 +5,5 @@ Items left to do for first iteration
 * logging/error handing/auditing db
 
 * media queries for nav
-* tweak media queries for header
 ---
 

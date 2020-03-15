@@ -15,6 +15,27 @@
             <a href="#main-nav-bar"><i class="fas fa-angle-double-down"></i></a>
         </div>
 
+        <div class="mobile-nav">
+            <input type="checkbox" class="mobile-nav-checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="mobile-nav-button">
+                <span class="mobile-nav-icon">&nbsp;</span>
+            </label>
+
+            <nav class="mobile-nav-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a href="#about-section" class="mobile-nav-link">About Me</a>
+                    </li>
+                    <li class="mobile-nav-item"><a href="#services-section" class="mobile-nav-link">Services</a>
+                    </li>
+                    <li class="mobile-nav-item"><a href="#timeline-section" class="mobile-nav-link">Timeline</a>
+                    </li>
+                    <li class="mobile-nav-item"><a href="#contact-section" class="mobile-nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="row">
             <div class="hero-text-area">
                 <h2 class="welcome-text">Welcome</h2>
@@ -203,7 +224,8 @@
                 <form id="contact-form" action="{{route('send-contact')}}" method="post">
                     @csrf
                     <div class="form-group">
-                        <label for="contact_name">Name <span hidden class="error-span">* This field is required</span></label>
+                        <label for="contact_name">Name <span hidden
+                                                             class="error-span">* This field is required</span></label>
                         <input value="" type="text" id="contact_name" name="contact_name" required>
                     </div>
                     <div class="form-group">
@@ -218,7 +240,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="contact_message">Message <span hidden class="error-span">* This field is required</span></label>
+                        <label for="contact_message">Message <span hidden
+                                                                   class="error-span">* This field is required</span></label>
                         <textarea required name="contact_message" id="contact_message" cols="30" rows="5"></textarea>
                     </div>
                     <div class="form-group">
@@ -250,7 +273,7 @@
 
                 <div class="footer-copy">
                     This Web site and all of it's content is protected by Copyright &copy; 2020 and
-                    should not be used without the express consent of Michael D. Qualls.  Please
+                    should not be used without the express consent of Michael D. Qualls. Please
                     contact me with any questions.
                 </div>
             </div>
@@ -260,5 +283,5 @@
 @endsection
 
 @section('scripts')
-{!! NoCaptcha::renderJs() !!}
+    {!! NoCaptcha::renderJs() !!}
 @endsection('scripts')

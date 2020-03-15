@@ -33,3 +33,17 @@
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
+
+%header-nav-and-logo-common  {
+    height: 9rem;
+    width: 9rem;
+    color: $light-color;
+    background: $secondary-color;
+    border-radius: 5rem;
+    display: inline-block;
+    margin: 4rem 4rem;
+    border: solid 1pt $primary-color;
+    position: relative;
+    animation: fadeIn 1.5s ease-out 2.5s;
+    animation-fill-mode: backwards;
+}
