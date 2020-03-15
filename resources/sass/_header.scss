@@ -10,6 +10,15 @@ header {
     .header-logo-area  {
         @extend %header-nav-and-logo-common;
 
+        @include respond(phone)  {
+            display: none;
+        }
+
+        @include respond(tab-land)  {
+            height: 8rem;
+            width: 8rem;
+        }
+
         .header-me-img {
             position: absolute;
             left: .3rem;
@@ -26,15 +35,6 @@ header {
             @include respond(tab-port)  {
                 left: .3rem;
             }
-        }
-
-        @include respond(phone)  {
-            opacity: 0;
-        }
-
-        @include respond(tab-land)  {
-            height: 8rem;
-            width: 8rem;
         }
     }
     .header-nav-area {
