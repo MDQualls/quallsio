@@ -369,16 +369,17 @@ header {
   overflow: hidden;
 }
 
-@media (max-width: 37.5em) {
-  header .header-logo-area {
-    display: none;
-  }
-}
-
 @media (max-width: 75em) {
   header .header-logo-area {
     height: 8rem;
     width: 8rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  header .header-logo-area {
+    visibility: hidden;
+    width: 0;
   }
 }
 
