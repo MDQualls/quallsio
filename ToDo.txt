@@ -2,9 +2,9 @@ Items left to do for first iteration
 
 * photo for the about page
 
-* site footer
 * logging/error handing/auditing db
 
+* media queries for nav
+* tweak media queries for header
 ---
 
-* add media queries
