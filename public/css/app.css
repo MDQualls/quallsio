@@ -411,6 +411,13 @@ header .header-nav-area {
           backface-visibility: hidden;
 }
 
+@media (max-width: 75em) {
+  header .header-nav-area {
+    height: 8rem;
+    width: 8rem;
+  }
+}
+
 @media (max-width: 37.5em) {
   header .header-nav-area {
     visibility: hidden;
@@ -444,13 +451,6 @@ header .header-nav-area i {
 @media (max-width: 56.25em) {
   header .header-nav-area i {
     left: 2.2rem;
-  }
-}
-
-@media (max-width: 75em) {
-  header .header-nav-area {
-    height: 8rem;
-    width: 8rem;
   }
 }
 

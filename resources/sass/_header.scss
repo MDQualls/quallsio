@@ -45,6 +45,11 @@ header {
         float: right;
         backface-visibility: hidden;
 
+        @include respond(tab-land)  {
+            height: 8rem;
+            width: 8rem;
+        }
+
         @include respond(phone)  {
             visibility: hidden;
             width: 0;
@@ -73,11 +78,6 @@ header {
             @include respond(tab-port)  {
                 left: 2.2rem;
             }
-        }
-
-        @include respond(tab-land)  {
-            height: 8rem;
-            width: 8rem;
         }
     }
 
