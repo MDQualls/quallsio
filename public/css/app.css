@@ -454,6 +454,10 @@ header .header-nav-area i {
   }
 }
 
+header .header-nav-area i:hover {
+  transform: scale(1.2);
+}
+
 header .hero-text-area {
   text-transform: uppercase;
   margin-top: 5rem;
