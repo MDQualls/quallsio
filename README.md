@@ -3,7 +3,7 @@ Qualls.IO - Portolio site
 
 ---
 
-New project for a Site for my portfolio / resume; just started ... far from complete!  
+New project for a Site for my portfolio / resume; Initial site is complete.  
 
 __Initial tech__
 
@@ -11,7 +11,6 @@ __Initial tech__
 * Laravel 6
 * MySql
 * Sendgrid
+* Fully responsive, 100% custom layout and styling.
 
 ---
-
-The responsive media queries are not there yet ... I did not overlook it!  I just have not gotten to it yet.
